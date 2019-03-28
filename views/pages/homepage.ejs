@@ -1,0 +1,127 @@
+<div id="homepage" :class="[heroHeightSet ? '' : 'uninitialized']" v-cloak>
+  <div class="hero-image">
+  <div class="hero d-flex flex-column justify-content-center" full-page-hero>
+    <div class="container text-center">
+    <div class="hero-text">
+      <h1>Loving Angels</h1>
+      <h1>Senior Care Agency</h1>
+      <p>Freedom is keeping you in the comfort of your own home</p>
+    </div>
+    <div>
+      <div class="more-info-text" @click="clickHeroButton()">
+        <div class="text" style="color:rgb(111, 169, 255)">Dive in</div>
+        <div class="icon" style="color:rgb(111, 169, 255)">&darr;</div>
+      </div>
+    </div>
+  </div>
+    </div>
+  </div>
+  <div class="about-wrapper" role="scroll-destination">
+    <div class="container">
+      <div class="about text-center">
+        <h1 style="font-weight: bold;">Welcome to Loving Angels Senior Care</h1>
+      </div>
+    <div>
+        <h4>Our Mission:</h4>
+        <p>We are dedicated to servicing our clients and communities
+          with exemplary homecare through our professional, caring, 
+          and experienced staff.
+        </p>
+        <p>
+          Your desire is our promise.
+        </p>
+      </div>
+      <div>
+        Maintaining a strong mind through mental exercise is critical
+        to seniors' overall well-being. We invigorate client's mind through
+        conversations, reminiscing, story telling, and other activities. We 
+        encourage healthy eating. We ensure that our clients consistently eat a 
+        nutrient-rich, well-balanced diet.
+      </div>
+      <div class="features text-center" style="color:rgb(111, 169, 255)">
+        <div class="row">
+          <div class="feature mb-4 mb-sm-0 col-sm">
+            <div class="icon" style="background-color:darkred;">
+              <i class="fa fa-cutlery"></i>
+            </div>
+            <h4>Well-balanced diet</h4>
+          </div>
+          <div class="feature pt-4 pt-sm-0 mb-4 mb-sm-0 col-sm">
+            <div class="icon"  style="background-color:darkred;">
+              <i class="fa fa-heart"></i>
+            </div>
+            <h4>Health</h4>
+          </div>
+          <div class="feature pt-4 pt-sm-0 col-sm">
+            <div class="icon"  style="background-color:darkred;">
+              <i class="fa fa-book"></i>
+            </div>
+            <h4>Mental Stimulation</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="setup">
+      <h1 class="text-center" style="font-weight:bold; color:rgb(111, 169, 255)">Our Clients</h1>
+    </br></br></br>        
+      <div class="row">
+            <div class="col-lg-5">
+              <img alt="our clients" src="/images/OurClients.jpg" height="300px" width="400px"/>
+            </div>
+            <div class="col-lg-7">
+              <h5>We offer personalized care and comfort to elders who are:</h5>
+              <p>&emsp;In need of assistance with daily living activies</p>
+              <p>&emsp;Living alone or at risk</p>
+              <p>&emsp;Disabled or wheelchair-bound</p>
+              <p>&emsp;Recovering from surgery or illness</p>
+              <h5>We offer respite care for family caregivers</h5>
+              <p>Our objective is to 
+              consistently exceed our client's expectations by building caregiver-client
+              relationships through personalized attention and care.
+              </p>
+              </br></br></br></br>
+          </div>
+      </div>
+    </div>
+  </div>
+    <div class="about-wrapper">
+      <div class="container">
+        </br></br></br>
+          <h1 class="text-center" style="font-weight:bold; color:darkred;">Our Services</h1>
+        </br></br></br>
+        <div class="row">
+          <div class="col-lg-5">
+            <img alt="our clients" src="/images/OurServices.jpg" height="300px" width="400px"/>
+          </div>
+          <div class="col-lg-7">
+            <h5>Service provided include:</h5>
+            <p>&emsp;Companionship</p>
+            <p>&emsp;Personal grooming/dressing</p>
+            <p>&emsp;Medical and dental appointments -- transportation</p>
+            <p>&emsp;Mobility assistance</p>
+            <p>&emsp;Overnight stays -- 24 hour care</p>
+            <p>&emsp;Light housekeeping</p>
+            <p>&emsp;Respite for family caregivers</p>
+            <p>&emsp;Meals preparations</p>
+            <p>&emsp;Transportation -- errands</p>
+            </p>
+            <p><span class="text-muted">&hearts;</span> <a href="/contactus" style="color:darkred; text-decoration: none;">
+              Schedule a complementary assessment today</a></p>
+            </br></br></br></br>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="setup" id="meetOurTeam">
+        <div class="container">
+          <div class="pep-talk text-center">
+            <h3>Meet our team</h3>
+            <p>We thank you for visiting our website. Please click on the link below to meet the team.</p>
+            <p><span class="text-muted">&hearts;</span> <a href="/aboutus" style="color:rgb(111, 169, 255);">The Loving Angels Team</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+<%- /* Expose locals as `window.SAILS_LOCALS` :: */ exposeLocalsToBrowser() %>
