@@ -1,11 +1,24 @@
 <div id="homepage" :class="[heroHeightSet ? '' : 'uninitialized']" v-cloak>
   <div class="hero-image">
-  <div class="hero d-flex flex-column justify-content-center" full-page-hero>
+  <div class="hero d-flex flex-column justify-content-center" full-page-hero 
+  style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/HeroBG.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100%;
+  color:white;">
     <div class="container text-center">
     <div class="hero-text">
-      <h1>Loving Angels</h1>
-      <h1>Senior Care Agency</h1>
-      <p>Freedom is keeping you in the comfort of your own home</p>
+      <h1 style="color: white;
+      font-size: 5em;
+      margin-top: 0;
+      margin-bottom: 0;">Loving Angels</h1>
+      <h1 style="color: white;
+      font-size: 5em;
+      margin-top: 0;
+      margin-bottom: 0;">Senior Care Agency</h1>
+      <p style="font-style: italic">Freedom is keeping you in the comfort of your own home</p>
     </div>
     <div>
       <div class="more-info-text" @click="clickHeroButton()">
@@ -16,14 +29,17 @@
   </div>
     </div>
   </div>
-  <div class="about-wrapper" role="scroll-destination">
+  <div class="about-wrapper" role="scroll-destination" ></div>
+  <div style="background-color: gainsboro;">
     <div class="container">
+      <br><br>
       <div class="about text-center">
-        <h1 style="font-weight: bold;">Welcome to Loving Angels Senior Care</h1>
+        <h1 style="font-weight: bold; color:darkred;">Welcome to Loving Angels Senior Care</h1>
+        <br><br>
       </div>
     <div>
         <h4>Our Mission:</h4>
-        <p>We are dedicated to servicing our clients and communities
+        <p>We are dedicated to serving our clients and communities
           with exemplary homecare through our professional, caring, 
           and experienced staff.
         </p>
@@ -38,32 +54,35 @@
         encourage healthy eating. We ensure that our clients consistently eat a 
         nutrient-rich, well-balanced diet.
       </div>
-      <div class="features text-center" style="color:rgb(111, 169, 255)">
+      <br><br>
+    </div>
+      <!-- <div class="features text-center" style="color:rgb(111, 169, 255)">
         <div class="row">
           <div class="feature mb-4 mb-sm-0 col-sm">
             <div class="icon" style="background-color:darkred;">
-              <i class="fa fa-cutlery"></i>
+              <i class="fas fa-cutlery"></i>
             </div>
             <h4>Well-balanced diet</h4>
           </div>
           <div class="feature pt-4 pt-sm-0 mb-4 mb-sm-0 col-sm">
             <div class="icon"  style="background-color:darkred;">
-              <i class="fa fa-heart"></i>
+              <i class="fas fa-heart"></i>
             </div>
             <h4>Health</h4>
           </div>
           <div class="feature pt-4 pt-sm-0 col-sm">
             <div class="icon"  style="background-color:darkred;">
-              <i class="fa fa-book"></i>
+              <i class="fas fa-book"></i>
             </div>
             <h4>Mental Stimulation</h4>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
   <div class="container">
     <div class="setup">
+      <br><br>
       <h1 class="text-center" style="font-weight:bold; color:rgb(111, 169, 255)">Our Clients</h1>
     </br></br></br>        
       <div class="row">
@@ -86,7 +105,7 @@
       </div>
     </div>
   </div>
-    <div class="about-wrapper">
+    <div class="about-wrapper" style="background-color: gainsboro;">
       <div class="container">
         </br></br></br>
           <h1 class="text-center" style="font-weight:bold; color:darkred;">Our Services</h1>
@@ -114,12 +133,20 @@
         </div>
       </div>
     </div>
-      <div class="setup" id="meetOurTeam">
+      <div class="setup" id="meetOurTeam" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/MeetOurTeam.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      height: 100%;
+      color:white;">
         <div class="container">
-          <div class="pep-talk text-center">
+          <div class="pep-talk text-center" >
+            <br>
             <h3>Meet our team</h3>
             <p>We thank you for visiting our website. Please click on the link below to meet the team.</p>
             <p><span class="text-muted">&hearts;</span> <a href="/aboutus" style="color:rgb(111, 169, 255);">The Loving Angels Team</a></p>
+            <br>
           </div>
         </div>
       </div>
